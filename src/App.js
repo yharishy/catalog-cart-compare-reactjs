@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Catalog from './routes/Catalog';
+import Cart from './routes/Cart';
+import Compare from './routes/Compare';
+
+const App = () => (
+  <div className='App'> 
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<div><Link to="/catalog">Click here to navigate to product catalog page</Link></div>} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/compare" element={<Compare />} />
+        </Routes>
+      </Suspense>
+    </Router>
+  </div>
+);
 
 export default App;

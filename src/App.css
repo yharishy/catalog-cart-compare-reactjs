@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .App-logo {
@@ -35,4 +37,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  text-align: left;
+  padding: 0 10px;
+  background-image: linear-gradient(to right, yellow , #ffd100);
+}
+
+div.grid {
+  margin-left: 10%;
+}
+
+div.grid div.pitem {
+  width: 30%;
+  height: 10%;
+  float: left;
+  border: 1px solid green;
+  margin: 2px;
+  padding: 10px;
+  text-align: left;
+}
+
+div.table {
+ margin-left: 10%;
+}
+
+div.table div.tableHeader {
+ font-weight: bold;
+ display: flex;
+ border: 1px solid black;
+ text-transform: uppercase;
+}
+
+div.table div.tableFooter {
+ font-weight: bold;
+ display: flex;
+ border-top: 1px solid black;
+ text-transform: uppercase;
+}
+
+div.table div.tableBody div {
+  display: flex;
+}
+
+div.table div div {
+  flex: 1;
+  /* border: 1px solid black;   */
+  margin: 2px;
+  text-align: left;
+}
+
+span.lowStock {
+  color:red;
+  margin-left: 10px;
+}
+.compare {
+  text-align: left;
+}
+
+.compare-item-title {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+.compare-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.compare-row {
+  flex: 1;
 }

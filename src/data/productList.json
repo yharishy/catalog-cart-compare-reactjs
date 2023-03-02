@@ -1,0 +1,74 @@
+[
+    {
+        "product_id": 784651321,
+        "product_name": "Android XYZ",
+        "brand": "Android",
+        "price": 6
+    },    
+    {
+        "product_id": 784651322,
+        "product_name": "Android ABC",
+        "brand": "Android",
+        "price": 9
+    },
+    {
+        "product_id": 784651323,
+        "product_name": "Android BBA",
+        "brand": "Android",
+        "price": 6
+    },
+    {
+        "product_id": 784651324,
+        "product_name": "Android TTQ",
+        "brand": "Android",
+        "price": 4
+    },
+    {
+        "product_id": 784651325,
+        "product_name": "Iphone XYZ",
+        "brand": "Iphone",
+        "price": 6
+    },
+    {
+        "product_id": 784651326,
+        "product_name": "Iphone QWE",
+        "brand": "Iphone",
+        "price": 5
+    },
+    {
+        "product_id": 784651327,
+        "product_name": "Iphone BHY",
+        "brand": "Iphone",
+        "price": 3
+    },
+    {
+        "product_id": 784651328,
+        "product_name": "Window NMK",
+        "brand": "Window",
+        "price": 7
+    },
+    {
+        "product_id": 784651329,
+        "product_name": "Window RTY",
+        "brand": "Window",
+        "price": 2
+    },
+    {
+        "product_id": 784651330,
+        "product_name": "Window BHY",
+        "brand": "Window",
+        "price": 6
+    },
+    {
+        "product_id": 784651331,
+        "product_name": "Window DFG",
+        "brand": "Window",
+        "price": 2
+    },
+    {
+        "product_id": 784651332,
+        "product_name": "Window KHJ",
+        "brand": "Window",
+        "price": 7
+    }
+]
